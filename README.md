@@ -1,14 +1,15 @@
 # ATMAnjaro
-ATMA on Manjaro Linux XFCE - best option for laptops running on battery 
+ATMA on Manjaro Linux XFCE - best option for laptops running on battery. 
 
 One great consideration everyone have is good backup time and availability of all necessary software on their laptops. Manjaro linux on XFCE is best in this. So, what I have here is a custom made Manjaro Linux with the ATMA software on top of it.
 
 What is the advantage?
 
-You create a Ventoy disk using their GUI version to retain some work space. For ATMANJARO, you can reserve something like 6BG and the remaining can be your work space in linux ext4 format. Create a folder named atma in the workdrive. Give it only root permission so that only root can view the files in that folder.
+You create a Ventoy disk (https://www.ventoy.net/) using their GUI version to reserve a reasonable work space. For ATMANJARO, you may need something like 6BG and the remaining can be your work space in linux ext4 format. Create a folder named atma in the workdrive. Give it only root permission so that only root can view the files in that folder.
 
-Download ATMANjaro_science.iso image to the Ventoy folder. Thats all.
+Download ATMANjaro_science.iso image (https://drive.google.com/file/d/1MHza_dHHmo56409k5OJlaM5e4aOjxyVL/view?usp=sharing) to the Ventoy folder. 
 
+Thats all.
 
 Boot you computer from the USB drive that has the Ventoy partition. It will take you to the Manjaro installation with a custom screen of two kids walking to a forest holding their hands. Yes, that is the moto - a helping hand to everyone to computing!
 
