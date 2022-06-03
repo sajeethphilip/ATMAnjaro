@@ -7,7 +7,7 @@ What is the advantage?
 
 You create a Ventoy disk (https://www.ventoy.net/) using their GUI version to reserve a reasonable work space. For ATMANJARO, you may need something like 6BG and the remaining can be your work space in linux ext4 format. Create a folder named atma in the workdrive. Give it only root permission so that only root can view the files in that folder.
 
-Download ATMANjaro_science.iso image (https://drive.google.com/file/d/1MHza_dHHmo56409k5OJlaM5e4aOjxyVL/view?usp=sharing) to the Ventoy folder. 
+Download ATMANjaro_science.iso image (https://drive.google.com/file/d/15Ak7UAeTI1Td4q9rsg3obm55TH9MYo9p/view?usp=sharing) to the Ventoy folder. 
 
 Thats all.
 
@@ -21,4 +21,4 @@ I find this convenient because (1) you can work on the same set of programs and 
 
 # Installing to a PC
 
-You can install ATMAnjaro to a PC from the install menu just like you do a manjaro installation. sos will still be there in the installed version but DO NOT USE IT FROM THERE unless you want your system to be backed up to the USB when you exit by typing sos again!
+You can install ATMAnjaro to a PC from the install menu just like you do a manjaro installation. sos will still be there in the installed version but use it with care!You can insert a USB with folder atma and your saved working environment and call sos to switch over to the USB. Now the installed system will be locked. Logout and log in to the USB environment. Once finished, login as root with your root password (default is manjaro) and run sos again. This should display that you are safe to remove the USB. Logout and unplug the USB. The system should now be ready to run the installed ATMANJARO in the system. If you accidently switch off or reboot the system without running sos for the second time, the files in the computer will be safe but will be inassessable. This is because the sos has replaced the system passwd file and group file with the USB version. You will have to either reinstall or manually edit the password and group files to get access to the system folders! So beware of it!!
